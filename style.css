@@ -1,110 +1,273 @@
-* {
-    margin: 0;
-    padding: auto;
-}
-
-body {
-    width: 1920px;
-    height: 700px;
-    flex-shrink: 0;
-    background: #FFF;
-}
-
-.Rectangle7 {
-    width: 1016px;
-    height: 40px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.logo {
-    width: 35px;
-    height: 40px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-span {
-    color: #F25822;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Home {
-    color: #F25822;
-    font-family: Gilroy-SemiBold;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Rectangle8 {
-    color: #000;
-    font-family: Gilroy-Medium;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Rectangle9 {}
-
-.Rectangle10 {
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Rectangle11 {
-    color: #888;
-    font-family: Gilroy-Medium;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Rectangle12 {}
-
-.Start {
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    color: #FFF;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Rectangle13 {}
-
-.png {
-    width: 544.814px;
-    height: 374.843px;
-    flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.Rectangle14 {
-    width: 1920px;
-    height: 243px;
-    flex-shrink: 0;
-    background: #FFF;
-}
+   * {
+       /* margin: auto;
+       padding: auto; */
+   }
+   
+   .Rectangle6 {
+       /* width: 1319px;
+                    height: 928px; */
+       flex-shrink: 0;
+       background: #FFF;
+   }
+   
+   .Rectangle7 {
+       /* width: 1289px;
+                    height: 114px; */
+   }
+   
+   .image {
+       color: #000;
+       font-family: Gilroy-Bold;
+       font-size: 24px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+   
+   .Grow {
+       color: #000;
+       font-family: Gilroy-Bold;
+       font-size: 28px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+   
+   .be {
+       color: #F25822;
+       font-family: Gilroy-Bold;
+       font-size: 28px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+   
+   .Home {
+       color: #F25822;
+       font-family: Gilroy-SemiBold;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none;
+       padding: 0em 3px 30px 800px
+   }
+   
+   .About {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Services {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Features {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Team {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Blog {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Contact {
+       color: #000;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       text-decoration: none
+   }
+   
+   .Rectangle10 {
+       /* width: 1274px;
+                    height: 536px; */
+   }
+   
+   .png {
+       margin: flex-end;
+       width: 650.814px;
+       height: 450.843px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       float: right;
+       margin-top: 5%;
+       margin-right: 4%;
+   }
+   
+   .Rectangle11 {
+       width: 589px;
+       height: 494px;
+   }
+   
+   .SEO {
+       width: 589px;
+       height: 494px;
+       color: #000;
+       font-family: Gilroy-Bold;
+       font-size: 60px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       position: absolute;
+       top: 25%;
+   }
+   
+   .Prov {
+       color: #888;
+       font-family: Gilroy-Medium;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       position: absolute;
+       top: 55%;
+   }
+   
+   .Rectangle12 {
+       /* width: 543px;
+                    height: 65px; */
+   }
+   
+   .Rectangle13 {
+       /* width: 374px;
+                    height: 94px; */
+   }
+   
+   .button {
+       width: 140px;
+       height: 50px;
+       flex-shrink: 0;
+       border-radius: 50px;
+       background: #F25822;
+       position: absolute;
+       top: 62%;
+   }
+   
+   .start {
+       color: #FFF;
+       font-family: Gilroy-Bold;
+       font-size: 15px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+   
+   .button1 {
+       width: 140px;
+       height: 50px;
+       flex-shrink: 0;
+       border-radius: 50px;
+       background: blanchedalmond;
+       position: absolute;
+       top: 62%;
+       left: 15%;
+   }
+   
+   .Watch {
+       color: #AAA;
+       font-family: Gilroy-Bold;
+       font-size: 15px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+   
+   .Rectangle14 {
+       /* width: 1240px;
+                    height: 188px; */
+   }
+   
+   .img1 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 5%;
+   }
+   
+   .img2 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 20%;
+   }
+   
+   .img3 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 35%;
+   }
+   
+   .img4 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 50%;
+   }
+   
+   .img5 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 65%;
+   }
+   
+   .img6 {
+       width: 160px;
+       height: 50px;
+       flex-shrink: 0;
+       background: url(<path-to-image>), lightgray none / cover no-repeat;
+       position: absolute;
+       top: 90%;
+       left: 80%;
+   }
