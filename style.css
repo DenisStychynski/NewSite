@@ -130,8 +130,8 @@
    }
    
    .Rectangle11 {
-       width: 589px;
-       height: 494px;
+       /* width: 589px;
+       height: 494px; */
    }
    
    .SEO {
@@ -143,8 +143,9 @@
        font-style: normal;
        font-weight: 500;
        line-height: normal;
-       position: absolute;
-       top: 25%;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
    }
    
    .Prov {
@@ -163,10 +164,7 @@
                     height: 65px; */
    }
    
-   .Rectangle13 {
-       /* width: 374px;
-                    height: 94px; */
-   }
+   .Rectangle13 {}
    
    .button {
        width: 140px;
@@ -174,8 +172,11 @@
        flex-shrink: 0;
        border-radius: 50px;
        background: #F25822;
+       display: flex;
+       align-items: center;
+       justify-content: center;
        position: absolute;
-       top: 62%;
+       top: 65%;
    }
    
    .start {
@@ -193,8 +194,10 @@
        flex-shrink: 0;
        border-radius: 50px;
        background: blanchedalmond;
+       align-items: center;
+       justify-content: center;
        position: absolute;
-       top: 62%;
+       top: 65%;
        left: 15%;
    }
    
@@ -205,11 +208,6 @@
        font-style: normal;
        font-weight: 400;
        line-height: normal;
-   }
-   
-   .Rectangle14 {
-       /* width: 1240px;
-                    height: 188px; */
    }
    
    .img1 {
